@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System7 Labs - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #FFD700;
+            font-family: 'Courier New', monospace;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            border-top: 3px double #FFD700;
+            border-bottom: 3px double #FFD700;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        .label {
+            color: #FFA500;
+            display: inline-block;
+            min-width: 120px;
+        }
+
+        .value {
+            color: #FFD700;
+        }
+
+        .hex-line {
+            margin: 5px 0;
+            font-size: 0.95em;
+        }
+
+        .separator {
+            border-bottom: 1px solid #FFD700;
+            margin: 25px 0;
+            opacity: 0.3;
+        }
+
+        .tagline {
+            text-align: center;
+            font-size: 1.3em;
+            margin: 40px 0;
+            color: #FFD700;
+            letter-spacing: 1px;
+        }
+
+        .status-box {
+            border: 2px solid #FFD700;
+            padding: 20px;
+            margin: 30px 0;
+            background: rgba(255, 215, 0, 0.03);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #FFD700;
+            color: #FFA500;
+            font-size: 0.9em;
+        }
+
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        @media (max-width: 768px) {
+            .title { font-size: 1.5em; }
+            .tagline { font-size: 1.1em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            ════════════════════════════════════════════════════════════════════════════════
+            <div class="title">SYSTEM7 LABS: COMING SOON</div>
+            ════════════════════════════════════════════════════════════════════════════════
+        </div>
+
+        <div class="section">
+            <div><span class="label">Process:</span> <span class="value">cloud_init (pid: 7, status: loading)</span></div>
+            <div><span class="label">Hardware:</span> <span class="value">Apple M3 Pro, 12-core CPU (8P+4E)</span></div>
+            <div><span class="label">Architecture:</span> <span class="value">ARM64, SoC Design</span></div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="section">
+            <div><span class="label">RIP:</span> <span class="value">0010:bootstrap_cloud+0x007/0xstudent</span></div>
+            <div><span class="label">Code:</span> <span class="value">Building at /public-cloud-for-students</span></div>
+        </div>
+
+        <div class="section">
+            <div style="margin-bottom: 10px;"><span class="label">Modules linked in:</span></div>
+            <div style="margin-left: 20px;">
+                <div>- compute_engine</div>
+                <div>- storage_layer</div>
+                <div>- student_pricing</div>
+                <div>- minimal_overhead</div>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="status-box">
+            <div style="text-align: center; font-size: 1.2em;">
+                SYSTEM STATUS: Redefining cloud for students.
+            </div>
+        </div>
+
+        <div class="section">
+            <div style="margin-bottom: 10px;"><span class="label">Memory Stack:</span></div>
+            <div class="hex-line">  0x53595354 0x454d3700 0x4c414253</div>
+            <div class="hex-line">  0x53545544 0x454e5400 0x434c4f55</div>
+            <div class="hex-line">  0x44000000 0x00000007 0x00000007</div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="section">
+            <div><span class="label">CPU Registers:</span></div>
+            <div style="margin-left: 20px; margin-top: 5px;">
+                <span class="label">X0:</span> 0x0000007777777777 
+                <span class="label" style="margin-left: 20px;">X1:</span> 0x00000000c10ud000 
+                <span class="label" style="margin-left: 20px;">SP:</span> 0xfffffff05aadf00d
+            </div>
+            <div style="margin-left: 20px; margin-top: 5px;">
+                <span class="label">PC:</span> 0xfffffff007000000
+                <span class="label" style="margin-left: 20px;">LR:</span> 0xfffffff007777777
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="section" style="margin-top: 40px;">
+            <div style="color: #00FF00;">---[ end trace 007 ]---</div>
+            <div style="margin-top: 10px;">System state: Redefining cloud for students.</div>
+        </div>
+
+        <div class="footer">
+            <div>System7 Labs part of Sage Systems © 2025</div>
+        </div>
+    </div>
+</body>
+</html>
